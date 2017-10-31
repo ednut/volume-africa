@@ -285,6 +285,15 @@ polyline{
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
+  position: relative;
+}
+.swiper-slide .pageContent .title.withBorder:after{
+  position: absolute;
+  content: "";
+  width: 20%;
+  border-top: 4px solid #00A59C;
+  left: 0;
+  bottom: 14px;
 }
 .swiper-slide .pageContent .featuredCategoryWrap{
   position: relative;
@@ -392,7 +401,18 @@ polyline{
   width: 100%;
   bottom: 0;
 }
-
+.musicSlide .swiper-slide .caption label{
+  width: 0!important;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.musicSlide .swiper-slide .caption input:checked + span i{
+    color: #00A59C!important;
+}
+.musicSlide .swiper-slide .caption label i{
+    
+}
 .musicSlide .swiper-slide .caption span{
   display: block;
   font-size: .8em;
@@ -409,4 +429,111 @@ polyline{
   float: right;
   width: 30%;
   text-align: right;
+}
+
+.swiper-slide .genre-section{
+  min-height: 12em;
+  background-color: #222;
+  margin-top: 3em;
+  padding: 15px 0;
+}
+.swiper-slide .genre-section .title{
+  color: #fff;
+  padding: 0px 0 5px 0;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.swiper-slide .genre-section .caption{
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.swiper-slide .genre-section .genre-wrap{
+  text-align: center;
+}
+.swiper-slide .genre-section .genre-wrap label{
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  line-height: 16px;
+}
+.swiper-slide .genre-section .genre-wrap label span{
+  border: 1px solid #999;
+  padding: 2px 15px;
+  border-radius: 10px;
+  display: block;
+  color: #efefef;
+  font-weight: 400;
+}
+.swiper-slide .genre-section .genre-wrap label input:checked + span{
+  border: 1px solid transparent;
+  background-image: linear-gradient(to right top, #de6341, #e23d57, #d90b76, #bc009b, #7f2ac0);
+  color: #fff;
+  padding: 2px 15px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+.swiper-slide .music-section{
+  min-height: 12em;
+  padding: 15px 0;
+}
+.swiper-slide .music-section .music-wrap{
+  height: 10em;
+  width: 48%;
+  position: relative;
+  border: 1px solid #222;
+  float: left;
+  margin-bottom: 4%;
+}
+.swiper-slide .music-section .music-wrap:nth-child(2n){
+  float: right;
+  width: 48%;
+}
+.swiper-slide .music-section .music-wrap .img-section{
+  height: 70%;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.swiper-slide .music-section .music-wrap .img-section .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+.swiper-slide .music-section .music-wrap .img-section .overlay i{
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  font-size: 40px;
+  opacity: 0.8;
+}
+.swiper-slide .music-section .music-wrap .text-section{
+  padding: 5px;
+  background-color: #222;
+  height: 30%;
+}
+.swiper-slide .music-section .music-wrap .text-section .song-name{
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+  padding-bottom: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.swiper-slide .music-section .music-wrap .text-section .artist-name{
+  font-size: 12px;
+  text-align: left;
+  color: #999;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
