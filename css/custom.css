@@ -907,3 +907,97 @@ polyline{
   background-color: #222;
   line-height: 3.8em;
 }
+.swiper-slide .login-sec{
+  min-height: 50em;
+  background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  padding-top: 7em;
+}
+.swiper-slide .login-sec form{
+  padding: 0 15px;
+}
+.swiper-slide .login-sec form .form-wrap{
+  position: relative;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  padding: 0 35px;
+  background: transparent;
+  height: 3em;
+  margin-bottom: 1em;
+}
+.swiper-slide .login-sec form .form-wrap i{
+  position: absolute;
+  color: #fff;
+  left: 13px;
+  top: 13px;
+}
+.swiper-slide .login-sec form .form-wrap input{
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+  color: #fff;
+}
+.swiper-slide .login-sec form button{
+  background-color: #fff;
+  border: none;
+  width: 100%;
+  border-radius: 25px;
+  height: 3em;
+  font-weight: 600;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.swiper-slide .login-sec .optionals {
+  margin-top: 4em;
+}
+.swiper-slide .login-sec .optionals .caption{
+  color: #fff;
+  font-size: 14px;
+}
+.swiper-slide .login-sec .optionals .line{
+  width: 85%;
+  border-top: 1px solid #fff;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.swiper-slide .login-sec .optionals ul{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.swiper-slide .login-sec .optionals ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.swiper-slide .login-sec .optionals ul li a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #fff;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  line-height: 2.5em;
+  font-size: 20px;
+
+}
+.swiper-slide .login-sec .optionals .signup a{
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 4em;
+  font-size: 14px;
+}
